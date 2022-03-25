@@ -1,0 +1,46 @@
+body {
+    padding: 0px 0px 0px 190px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 140, 140);
+}
+
+.howto {
+    flex: 0.34;
+    padding: 30px;
+    position: relative;
+    top: 210px;
+    height: 242px;
+    background-color: rgb(173, 214, 253);
+    border: 5px black solid;
+    text-align: center;
+}
+
+.chatbot {
+    flex: 0.5;
+    margin: 40px 0px 0px 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.elmo {
+    flex: 0.1;
+    position: relative;
+    top: 20px;
+}
+
+.input {
+    flex: 0.1;
+    position: relative;
+    top: 80px;
+}

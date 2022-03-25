@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(255, 140, 140);
+}
+
+#typed {
+    font-size: 30pt;
+    font-family: 'GongGothicMedium';
+}
+
+#talkbox {
+    padding: 20px;
+    height: 230px;
+    width: 560px;
+    border: black solid 5px;
+    background-color: rgb(252, 206, 56);
+    border-radius: 5px;
+    font-size: 30pt;
+    font-family: 'GongGothicMedium';
+}
+
+.face {
+    background-color: rgb(223, 0, 0);
+    position: relative;
+    top: 40px;
+    width: 295px;
+    height: 240px;
+    border-radius: 50%;
+    border: 6px solid black;
+    z-index: 10;
+}
+
+.eye1 {
+    background-color: white;
+    position: absolute;
+    top: -45px;
+    left: 137px;
+    width: 80px;
+    height: 78px;
+    border-radius: 50%;
+    border: 5px solid black;
+} 
+/*오른쪽 눈*/
+
+.eye2 {
+    background-color: white;
+    position: absolute;
+    top: -45px;
+    left: 62px;
+    width: 80px;
+    height: 78px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+/*왼쪽 눈*/
+
+.dot1 {
+    background-color: black;
+    position: absolute;
+    top: -15px;
+    left: 98px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+/*왼쪽 눈*/
+
+.dot2 {
+    background-color: black;
+    position: absolute;
+    top: -15px;
+    left: 164px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+/*오른쪽 눈*/
+
+.nose {
+    background-color: orange;
+    position: absolute;
+    top: 17px;
+    left: 104px;
+    width: 80px;
+    height: 95px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.mouse {
+    background-color: black;
+    position: absolute;
+    top: 140px;
+    left: 55px;
+    width: 180px;
+    height: 60px;
+    border-radius: 0pc 0pc 900pc 900pc;
+    border: 5px solid black;
+}
+
+input[type="text"] {
+    height: 50px;
+    width: 440px;
+    font-size: 30pt;
+    font-family: 'GongGothicMedium';
+    border: 5px black solid;
+}
+
+input[type="button"] {
+    height: 62px;
+    width: 150px;
+    border: 5px black solid;
+    background-color: orange;
+    font-size: 30pt;
+    font-family: 'GongGothicMedium';
+}
